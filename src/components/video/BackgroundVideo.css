@@ -24,7 +24,6 @@
   font-family: roboto, arial, helvetica, sans-serif;
   font-weight: 400;
   font-size: 52px;
-  /* line-height: 24px; */
   position: absolute;
   transform: translate(-50%, -50%);
   -webkit-touch-callout: none; /* iOS Safari */
@@ -36,9 +35,9 @@
                                 supported by Chrome, Edge, Opera and Firefox */
 }
 
-.blueText {
+.greenText {
   font-style: normal;
-  color: #00c6ff;
+  color: #8a9689;
 }
 
 .btn-icon {

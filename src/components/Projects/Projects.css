@@ -11,9 +11,9 @@
 
 .options-wrapper > * {
   flex-shrink: 0;
-  background-color: #00c6ff !important;
+  background-color: #8a9689 !important;
   color: #fff !important;
-  border-color: #00c6ff !important;
+  border-color: #8a9689 !important;
   font-weight: 700 !important;
 }
 
@@ -44,7 +44,7 @@
   transition: all 250ms;
   z-index: 10;
   color: #fff;
-  background-color: #00c6ff;
+  background-color: #8a9689;
 }
 
 .image:hover > .test-btn {

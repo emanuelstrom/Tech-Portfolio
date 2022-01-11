@@ -19,7 +19,7 @@ const Footer = () => {
             color: "#fff",
             borderRadius: "0%",
             marginRight: "15px",
-            "&:hover": { bgcolor: "#00c6ff" },
+            "&:hover": { bgcolor: "#8a9689" },
           }}
         >
           <LinkedIn sx={{ color: "#fff" }} />
@@ -35,15 +35,15 @@ const Footer = () => {
             height: "64px",
             color: "#fff",
             borderRadius: "0%",
-            "&:hover": { bgcolor: "#00c6ff" },
+            "&:hover": { bgcolor: "#8a9689" },
           }}
         >
           <GitHub sx={{ color: "#fff" }} />
         </Button>
       </Box>
       <Box></Box>
-      <Box sx={{ color: "#8f9aa7" }}>Emanuel Ström </Box>{" "}
-      <Box sx={{ color: "#00c6ff" }}> ©2021 </Box>
+      <Box sx={{ color: "#fff" }}>Emanuel Ström </Box>{" "}
+      <Box sx={{ color: "#8a9689" }}> ©2022 </Box>
     </div>
   );
 };

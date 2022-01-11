@@ -1,6 +1,6 @@
 .circle {
   border-radius: 50%;
-  background-color: #00c6ff;
+  background-color: #8a9689;
   height: 100px;
   width: 100px;
   display: flex;
@@ -39,7 +39,7 @@
   font-weight: 500;
 }
 
-.experiencebar {
+/* .experiencebar {
   background: #eee;
   height: 28px;
   margin-bottom: 15px;
@@ -110,7 +110,7 @@
 }
 .experiencebar:nth-child(11) .animation-bar {
   animation-delay: calc(var(--delay) * 11);
-}
+} */
 @keyframes test {
   0% {
     width: 0%;

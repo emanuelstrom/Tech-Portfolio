@@ -39,16 +39,16 @@ const Image = React.forwardRef(
             size="large"
             sx={[
               {
-                color: "#00c6ff",
-                borderColor: "#00c6ff",
+                color: "#8a9689",
+                borderColor: "#8a9689",
                 fontWeight: 700,
                 fontSize: 16,
                 borderWidth: "2px",
               },
               {
                 "&:hover": {
-                  backgroundColor: "#00c6ff",
-                  borderColor: "#00c6ff",
+                  backgroundColor: "#8a9689",
+                  borderColor: "#8a9689",
                   color: "#fff",
                   borderWidth: "2px",
                 },
@@ -99,8 +99,8 @@ const Image = React.forwardRef(
                   sx={[
                     {
                       color: "#fff",
-                      borderColor: "#00c6ff",
-                      bgcolor: "#00c6ff",
+                      borderColor: "#8a9689",
+                      bgcolor: "#8a9689",
                       fontWeight: 700,
                       fontSize: 16,
                       borderWidth: "2px",
@@ -108,8 +108,8 @@ const Image = React.forwardRef(
                     },
                     {
                       "&:hover": {
-                        backgroundColor: "#00c6ff",
-                        borderColor: "#00c6ff",
+                        backgroundColor: "#8a9689",
+                        borderColor: "#8a9689",
                         color: "#fff",
                         borderWidth: "2px",
                         transform: "scale(1.1)",

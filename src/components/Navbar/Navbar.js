@@ -36,7 +36,7 @@ const Navbar = () => {
   return (
     <AppBar
       position="sticky"
-      sx={{ bgcolor: "#1b242f", borderBottom: 4, borderColor: "#02b0e0" }}
+      sx={{ bgcolor: "#1b242f", borderBottom: 4, borderColor: "#8A9689" }}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>

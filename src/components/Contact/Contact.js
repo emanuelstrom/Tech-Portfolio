@@ -41,8 +41,8 @@ const Contact = () => {
             fontSize: "16px",
             padding: "5px 25px",
             "&:hover": {
-              bgcolor: "#00c6ff",
-              borderColor: "#00c6ff",
+              bgcolor: "#8a9689",
+              borderColor: "#8a9689",
               borderWidth: "2px",
             },
             "&:visited": { color: "#fff" },
@@ -62,8 +62,8 @@ const Contact = () => {
             fontSize: "16px",
             padding: "5px 25px",
             "&:hover": {
-              bgcolor: "#00c6ff",
-              borderColor: "#00c6ff",
+              bgcolor: "#8a9689",
+              borderColor: "#8a9689",
               borderWidth: "2px",
             },
             "&:visited": { color: "#fff" },
