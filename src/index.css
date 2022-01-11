@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 73px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #444649;
+}
+
+a:visited {
+  color: #444649;
+}
+
+.hero-text-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.hero-text {
+  position: relative;
+  font-weight: 700;
+  font-family: roboto, arial, helvetica;
+  color: #444649;
+}
+
+.hero-text-white {
+  position: relative;
+  font-weight: 700;
+  font-family: roboto, arial, helvetica;
+  color: #fff;
+}
+
+.hero-text-white::after {
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  content: "";
+  width: 50%;
+  height: 4px;
+  background: #fff;
+}
+
+.hero-text::after {
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  content: "";
+  width: 50%;
+  height: 4px;
+  background: #444649;
+}

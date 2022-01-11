@@ -1,0 +1,132 @@
+.circle {
+  border-radius: 50%;
+  background-color: #00c6ff;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.circle svg {
+  width: 50px;
+  height: 50px;
+}
+
+.placeHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-picture {
+  width: min(300px, 100%);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.biography > a {
+  color: #009ada;
+  font-weight: 500;
+}
+
+.experiencebar {
+  background: #eee;
+  height: 28px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experiencebar > span {
+  padding-right: 8px;
+}
+
+.bar-fill {
+  height: 100%;
+  display: flex;
+}
+
+.experience-title {
+  background-color: #00c6ff;
+  width: 100px;
+  flex-shrink: 0;
+  color: #fff;
+  font-weight: 700;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation-bar {
+  width: 0%;
+  height: 100%;
+  background: #02b9ec;
+  animation: test 1200ms 1 ease-in-out;
+  animation-fill-mode: forwards;
+  --delay: 150ms;
+}
+
+.experiencebar:nth-child(1) .animation-bar {
+  animation-delay: calc(var(--delay) * 1);
+}
+.experiencebar:nth-child(2) .animation-bar {
+  animation-delay: calc(var(--delay) * 2);
+}
+.experiencebar:nth-child(3) .animation-bar {
+  animation-delay: calc(var(--delay) * 3);
+}
+.experiencebar:nth-child(4) .animation-bar {
+  animation-delay: calc(var(--delay) * 4);
+}
+.experiencebar:nth-child(5) .animation-bar {
+  animation-delay: calc(var(--delay) * 5);
+}
+.experiencebar:nth-child(6) .animation-bar {
+  animation-delay: calc(var(--delay) * 6);
+}
+.experiencebar:nth-child(7) .animation-bar {
+  animation-delay: calc(var(--delay) * 7);
+}
+.experiencebar:nth-child(8) .animation-bar {
+  animation-delay: calc(var(--delay) * 8);
+}
+.experiencebar:nth-child(9) .animation-bar {
+  animation-delay: calc(var(--delay) * 9);
+}
+.experiencebar:nth-child(10) .animation-bar {
+  animation-delay: calc(var(--delay) * 10);
+}
+.experiencebar:nth-child(11) .animation-bar {
+  animation-delay: calc(var(--delay) * 11);
+}
+@keyframes test {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.techover-logo {
+  width: 250px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.techover-slogan {
+  color: #444649;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,73 @@
+.projects-container {
+  background-color: #f5f5f5;
+  transition: all 500ms;
+}
+.options-wrapper {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.options-wrapper > * {
+  flex-shrink: 0;
+  background-color: #00c6ff !important;
+  color: #fff !important;
+  border-color: #00c6ff !important;
+  font-weight: 700 !important;
+}
+
+.image-slider {
+  max-width: 1380px;
+  margin: 30px auto;
+  padding: 0px 20px;
+  justify-content: center;
+}
+
+.image {
+  width: 400px;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  transition: all 500ms;
+  margin: 3px !important;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.image > .test-btn {
+  position: absolute !important;
+  pointer-events: none !important;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -0%);
+  transition: all 250ms;
+  z-index: 10;
+  color: #fff;
+  background-color: #00c6ff;
+}
+
+.image:hover > .test-btn {
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -50%);
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+}
+
+.modal-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-image {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
