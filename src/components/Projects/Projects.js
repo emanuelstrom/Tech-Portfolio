@@ -152,13 +152,13 @@ const Projects = () => {
           title="Spotify Clone"
           alt="spotify clone"
           imgSrc="./images/Spotify.png"
-          description="Comming soon!"
+          description="Coming soon!"
         />
         <Image
           title="Web shop"
           alt="web shop"
-          imgSrc="./images/thumb-2.png"
-          description="decription "
+          imgSrc="./images/webshop.png"
+          description="Coming soon!"
         />
         <Image
           title="Klarna Checkout"
