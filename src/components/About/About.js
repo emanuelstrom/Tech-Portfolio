@@ -101,7 +101,7 @@ const About = () => {
             Who's this?
           </Typography>
           <p className="biography">
-            I'm a Front-End Developer who has attended{" "}
+            I'm a full-stack developer who has attended{" "}
             <a href="https://www.academy.techover.nu/" target="_blank">
               Techover Academy
             </a>{" "}
@@ -111,14 +111,14 @@ const About = () => {
             <a href="#contact">Let's make something special.</a>
             <br />
             <br />
-            After working as a photographer and getting a good sense of image
-            and design so I became more and more interested in it digital. In
-            the end, the interest became so great that I applied for it Techover
-            academy.
+            After working as a photographer for 10 years and getting a good
+            sense of image and design, I became more and more interested in web
+            development. I can really see the strength in combining my
+            photography skills with building powerful websites.
             <br />
             <br />
             I have been coached by consultants in the IT industry who have
-            learned me the MERN-stack. Now I can build web apps, e-commerce
+            tought me the MERN-stack. Now I can build web apps, e-commerce
             sites, custom system integrations and my own APIs.
             <br />
             <br />
