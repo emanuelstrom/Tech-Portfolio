@@ -152,7 +152,10 @@ const Projects = () => {
           title="Spotify Clone"
           alt="spotify clone"
           imgSrc="./images/Spotify.png"
-          description="Coming soon!"
+          description="This app was created using React and Redux.
+          I've been using Spotify's API to connect you securely with this app.
+          Styled with materialUI. To be able to try the app properly, your spotify account needs to be added to the guest list."
+          href="https://emanuel-spotify.herokuapp.com/"
         />
         <Image
           title="Web shop"
